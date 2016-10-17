@@ -67,7 +67,7 @@ ggplot(data = by_date) +
     ggtitle("Total number of steps of original data")
 ```
 
-![](PA1_template_files/figure-html/histogram-1.png)<!-- -->
+![](PA1_template_files/figure-html/histogram-1.png)
 
 
 ```r
@@ -95,7 +95,7 @@ ggplot(data = by_interval) +
     ylab("average number of steps")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![](PA1_template_files/figure-html/unnamed-chunk-6-1.png)
 
 
 ```r
@@ -160,7 +160,7 @@ ggplot(data = steps_per_day) +
     ggtitle("Total number with missing values replaced")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
+![](PA1_template_files/figure-html/unnamed-chunk-12-1.png)
 
 
 ```r
@@ -212,7 +212,7 @@ ggplot(data = patterns) +
     facet_grid(day_of_week~.)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-17-1.png)<!-- -->
+![](PA1_template_files/figure-html/unnamed-chunk-17-1.png)
 
 The plot suggests that, on average, there is an increase in activity on weekends
 between the intervals 1000 and 2000. However, the maximum number of steps across 
